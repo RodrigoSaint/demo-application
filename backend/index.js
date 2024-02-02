@@ -7,6 +7,8 @@ const sequelize = new Sequelize(
   "postgres://postgres:rn6yBZ1QG7x1asvBRzaX@localhost:5432/demo"
 );
 
+//test teste 2
+
 const Task = sequelize.define("tasks", {
   title: {
     type: DataTypes.STRING,
